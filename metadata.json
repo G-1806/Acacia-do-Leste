@@ -1,0 +1,6 @@
+{
+  "name": "Tesouraria Maçônica - Acácia do Leste nº 424",
+  "description": "Sistema de gestão da tesouraria da A∴ R∴ L∴ S∴ Acácia do Leste nº 424 com controle de mensalidades projetadas e realizadas, livro caixa, fluxo de caixa, parcelamentos, demonstrativo por irmão, nominata e notificações.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
