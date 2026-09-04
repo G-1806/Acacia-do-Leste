@@ -257,10 +257,7 @@ export const TabMensalidades: React.FC<TabMensalidadesProps> = ({
                 return (
                   <tr key={ir.id} className="hover:bg-slate-50/80 transition">
                     <td className="p-2 border-r border-slate-200 font-sans font-medium text-slate-900">
-                      <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-[#081838] font-serif">Ir∴</span>
-                        <span>{ir.nome}</span>
-                      </div>
+                      {ir.nome}
                     </td>
                     <td className="p-2 border-r border-slate-200 text-center text-slate-600 font-medium">
                       {ir.cim}
@@ -435,10 +432,7 @@ export const TabMensalidades: React.FC<TabMensalidadesProps> = ({
                 return (
                   <tr key={ir.id} className="hover:bg-slate-50 transition">
                     <td className="p-2 border-r border-slate-200 font-sans font-medium text-slate-900">
-                      <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-[#081838] font-serif">Ir∴</span>
-                        <span>{ir.nome}</span>
-                      </div>
+                      {ir.nome}
                     </td>
                     <td className="p-2 border-r border-slate-200 text-center text-slate-600 font-medium">
                       {ir.cim}
